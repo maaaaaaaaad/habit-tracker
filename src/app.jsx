@@ -37,9 +37,9 @@ class App extends Component {
     }
   };
   // const habitArr = this.state.habits.filter((item) => {
-  //   item.id !== data.id;
-  //   this.setState({habits : habitArr})
+  //   return item.id !== data.id;
   // })
+  //   this.setState({habits : habitArr})
   handleAdd = (name) => {
     const habitArray = [
       ...this.state.habits,
